@@ -27,8 +27,9 @@ require("./routes/brandRoutes")(app);
 require("./routes/authRoutes")(app);
 require("./routes/userRoutes")(app);
 
+// if(true){
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("../client/build"));
+  app.use(express.static("client/build"));
 
   const path = require("path");
   app.get("*", (req, res) => {
