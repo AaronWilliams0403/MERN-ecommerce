@@ -5,7 +5,7 @@ A fully functioning Guitar Ecommerce shop developed by MERN stack. This is an ad
 Check out demo at [https://guitar-shop-ecommerce.herokuapp.com/](https://guitar-shop-ecommerce.herokuapp.com/). Note that the web app is not designed to be RESPONSIVE yet, so please open with your desktop. 
 
 Use the below login so you can access admin areas:
-- Email: a@mail.com
+- Email: a@xmail.com
 - Password: 12345
 
 Use the below card to pay with Paypal:
