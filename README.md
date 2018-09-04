@@ -1,4 +1,4 @@
-# mern-ecommerce
+# Brief
 A fully functioning Guitar Ecommerce shop developed by MERN stack. This is an adaptation from an online course that I took on [Udemy.com](udemy.com). Technologies used include ReactJS, NodeJS, and MongoDb.
 
 # Demo
