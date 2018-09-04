@@ -28,14 +28,15 @@ require("./routes/brandRoutes")(app);
 require("./routes/authRoutes")(app);
 require("./routes/userRoutes")(app);
 
-const port = process.env.PORT || 3002;
-
 if (process.env.NODE_ENV === "production") {
   const path = require("path");
   app.get("/*", (req, res) => {
-    res.sendfile(path.resolve(__dirname, "../client", "build", "index.html"));
+    res.sendFile(path.resolve(__dirname, "../client", "build", "index.html"));
   });
 }
+
+const port = process.env.PORT || 3002;
+
 app.listen(port, () => {
   console.log(`Server running on ${port}.`);
 });
